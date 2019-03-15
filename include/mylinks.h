@@ -31,4 +31,19 @@ extern int encryption_from_block(uint16_t block);
 *函数修改日期 ： 
 ***********************************************************************************************/
 extern int get_serial_number(char *user_name,uint16_t block);
+
+
+/***********************************************************************************************
+*函数名 ： update_by_http
+*函数功能描述 ： 通过HTTP方式远程升级WIFI固件
+*函数参数 ： http_url-升级文件的HTTP路径 port-HTTP服务器端口号 user1_bin-user1文件名 user2_bin-user2文件名
+*函数返回值 ： -1-ESP8266未注册 -2-HTTP路径错误 -3-HTTP服务器连接失败 -4-分区擦除失败
+            -5-升级失败 -6-HTTP头错误 0-升级成功
+*函数创建日期 ： 2019-3-15
+*函数修改日期 ： 
+***********************************************************************************************/
+extern int update_by_http(const char *http_url,int port,const char *user1_bin,const char *user2_bin);
+
 #endif
+
+
