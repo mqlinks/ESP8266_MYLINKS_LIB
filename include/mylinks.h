@@ -44,6 +44,18 @@ extern int get_serial_number(char *user_name,uint16_t block);
 ***********************************************************************************************/
 extern int update_by_http(const char *http_url,int port,const char *user1_bin,const char *user2_bin);
 
+
+
+/***********************************************************************************************
+*函数名 ： get_the_number_of_temporary_serial_numbers
+*函数功能描述 ： 32次临时使用的权限，可提供给客户在未连接网络却需要测试时的使用
+*函数参数 ： 无
+*函数返回值 ： 剩余使用的次数
+*函数创建日期 ： 2019-3-18
+*函数修改日期 ： 
+***********************************************************************************************/
+extern int get_the_number_of_temporary_serial_numbers(void);
+
 #endif
 
 
