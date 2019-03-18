@@ -18,17 +18,24 @@
 
 此文件系统可以将文件打包成一个文件，并且在使用时消耗极小的内存开销，文件名只支持32个字节以下的文件，使用超级方便。函数具体见:include/mfs.h
 
-
-
 ## 4.通过HTTP更新WIFI固件：
 
 通过HTTP的方式远程升级ESP8266的固件。函数具体见:include/mylinks.h
 
 
 
+## RTOS 2.0.0编译器下载：
+
+* [Windows](https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
+* [Mac](https://dl.espressif.com/dl/xtensa-lx106-elf-osx-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
+* [Linux(64)](https://dl.espressif.com/dl/xtensa-lx106-elf-linux64-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
+* [Linux(32)](https://dl.espressif.com/dl/xtensa-lx106-elf-linux32-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
 
 
-如果有ESP8266使用上有任何的问题，也可以联系我们：
+
+## 联系我们：
+
+如果有ESP8266使用上有任何的问题，可与我们联系：
 
 ##### 技术支持QQ群号：519630819
 
