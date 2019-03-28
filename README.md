@@ -24,6 +24,22 @@
 
 
 
+## 5.通过TCP方式连接MQTT服务器：
+
+通过TCP的方式连接MQTT服务器，属别于原厂mqtt的库在于可以长时间连接而不断开。函数具体见:include/MQTTFreeRTOSTcp.h和include/MQTTClientTcp.h
+
+使用时请注意头文件有依赖关系，具体如下：
+
+#include "include/MQTTFreeRTOSTcp.h"
+
+#include "include/MQTTClientTcp.h"
+
+
+
+
+
+
+
 ## RTOS 2.0.0编译器下载：
 
 * [Windows](https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
@@ -31,12 +47,10 @@
 * [Linux(64)](https://dl.espressif.com/dl/xtensa-lx106-elf-linux64-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
 * [Linux(32)](https://dl.espressif.com/dl/xtensa-lx106-elf-linux32-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
 
-
-
 ## 联系我们：
 
 如果有ESP8266使用上有任何的问题，可与我们联系：
 
 ##### 技术支持QQ群号：519630819
 
-##### 样品企业店铺：mlzn.taobao.com
+##### 样品企业店铺：shop.mqlinks.com
