@@ -22,8 +22,6 @@
 
 通过HTTP的方式远程升级ESP8266的固件。函数具体见:include/mylinks.h
 
-
-
 ## 5.通过TCP方式连接MQTT服务器：
 
 通过TCP的方式连接MQTT服务器，属别于原厂mqtt的库在于可以长时间连接而不断开。函数具体见:include/MQTTFreeRTOSTcp.h和include/MQTTClientTcp.h
@@ -34,11 +32,7 @@
 
 #include "include/MQTTClientTcp.h"
 
-
-
-
-
-
+具体例程：example/mqtt
 
 ## RTOS 2.0.0编译器下载：
 
