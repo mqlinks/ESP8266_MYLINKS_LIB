@@ -9,7 +9,7 @@ export BIN_PATH=~/esp8266_bin
 !
 
 export SDK_PATH=$(pwd)"/../"
-export BIN_PATH=../bin/smartconfig
+export BIN_PATH=../bin/mqtt
 
 echo "gen_misc.sh version 20150911"
 echo ""
