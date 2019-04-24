@@ -36,6 +36,14 @@
 
 具体例程：example/mqtt
 
+
+
+## 6.红外的38Khz波型：
+
+通过GPIO14产生一个38Khz的波型，用于红外的发射使用。函数具体：
+
+#include "include/38khz.h"
+
 ## RTOS 2.0.0编译器下载：
 
 * [Windows](https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-88-gde0bdc1-4.8.5.tar.gz)
