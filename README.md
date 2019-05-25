@@ -36,13 +36,21 @@
 
 具体例程：example/mqtt
 
-
-
 ## 6.红外的38Khz波型：
 
 通过GPIO14产生一个38Khz的波型，用于红外的发射使用。函数具体：
 
 #include "include/38khz.h"
+
+
+
+## 7.SSL连接应用：
+
+通过SSL的方式连接服务器，函数具体见:include/mylinks_ssl.h
+
+使用时需要在工程文件中加载libmbedtls.a和libopenssl.a
+
+
 
 ## RTOS 2.0.0编译器下载：
 
